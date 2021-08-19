@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+h1 {
+  text-transform: uppercase;
+  color: #470d13;
+  font-size: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+h5 {
+  text-transform: uppercase;
+  color: #470d13;
+  margin-bottom: 10px;
+  background-color: rgb(233, 233, 233);
+  font-size: 20px;
+  padding: 8px;
+}
+p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.neu {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.italy {
+  font-style: italic;
+  color: rgb(39, 39, 39);
+}
+header {
+  background-color: rgb(214, 214, 214);
+  font-size: 17px;
+  width: 700px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  color: #470d13;
+  margin-bottom: 30px;
+}
+.myinfo {
+  margin-bottom: 0;
+}
+.graphics {
+  color: #470d13;
+  font-size: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.keys,
+.interns,
+.edu,
+.add-info {
+  color: #470d13;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+.intern-back,
+.edu-back,
+.add-back {
+  background-color: none;
+  border-bottom: 3px solid #470d13;
+  margin-bottom: 10px;
+}
+.add-back {
+  margin-bottom: 30px;
+}
+.int-list {
+  margin-bottom: 20px;
+}
+.neu {
+  font-size: 20px;
+  color: #470d13;
+}
+.keys {
+  margin-top: 10px;
+}
+.keys-list {
+  background-color: none;
+  border-top: 3px solid #470d13;
+  border-bottom: 3px solid #470d13;
+  margin-bottom: 10px;
+}
+.first-list {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.firstullist {
+  margin-right: 20px;
+}
+ul {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.imgfooter {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.footer-links {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.footer-links a {
+  color: #470d13;
+}
+.footer-links a:hover {
+  color: rgb(102, 102, 102);
+}
+.footer-links a:active {
+  background-color: black;
+}
